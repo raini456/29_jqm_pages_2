@@ -40,6 +40,12 @@
             </div>
             <div data-role="content">
                 <a class="ui-btn ui-btn-icon-right ui-icon-carat-r" href="#page_city" data-transition="slide">Zur CITY</a>
+                <!--Link zu einer externen Seite mit jqm --->
+                <a class="ui-btn ui-btn-icon-right ui-icon-carat-r" href="extern.php" data-transition="slide">Extern</a>
+                <a class="ui-btn ui-btn-icon-right ui-icon-carat-r" href="extern.php#page_extern_photo" data-transition="slide">Extern Foto</a>
+                
+                <!-- data-ajax="false" ruft die Seite neu auf, die Slides etc. funktionieren nur mit data-role='page* -->
+                <a class="ui-btn ui-btn-icon-right ui-icon-arrow-r" href="neu.php" data-transition="slide" data-ajax="false">NEU (AJAX FALSE)</a>
             </div>
             <div data-role="footer" data-position="fixed">
                 <h5>&copy; 2018</h5>
